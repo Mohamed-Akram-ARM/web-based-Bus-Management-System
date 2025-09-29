@@ -1,0 +1,121 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(bg3.jpg)
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+}
+.container_pssngr_2 {
+    float: right;
+    background-color: #eadbdbb8;
+    padding: 47px 20px 37px 20px;
+    margin: 31px 43px 36px 26px;
+    height: fit-content;
+    border-radius: 19px;
+}
+
+.container_pssngr_1 {
+    float: left;
+    background-color: #f0e2cdc7;
+    padding: 47px 20px 16px 20px;
+    margin: 31px 26px 36px 43px;
+    height: fit-content;
+    border-radius: 19px;
+}
+
+input {
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+input#num_id {
+    background-color: white;
+    width: 297px;
+    height: 38px;
+    border: 1px solid #a8a3a3;
+}
+
+input#gtrws_id {
+    background-color: lightblue;
+    padding: 2px 2px 2px 2px;
+    width: 110px;
+    border: none;
+    height: 34px;
+    box-shadow: 6px 6px 13px black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+input#gtrws_id:hover {
+    background-color: #03a9f4ba;
+    box-shadow: none;
+}
+
+input#delrw_id {
+    background-color: lightblue;
+    padding: 2px 2px 2px 2px;
+    width: 132px;
+    border: none;
+    height: 34px;
+    box-shadow: 6px 6px 13px black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+input#delrw_id:hover {
+    background-color: #03a9f4ba;
+    box-shadow: none;
+}
+
+input.btn_pssngr {
+    background-color: lightblue;
+    padding: 2px 2px 2px 2px;
+    width: 222px;
+    border: none;
+    height: 34px;
+    box-shadow: 6px 6px 13px black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+input.btn_pssngr:hover {
+    background-color: #03a9f4ba;
+    box-shadow: none;
+}
+
+td {
+    font-size: 15px;
+    padding: 2px 5px 2px 6px;
+}
+
+table#t1 {
+    margin: auto;
+    border: 1px solid red;
+    width: -webkit-fill-available;
+}
+
+.bg1 {
+    height: fit-content;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+input {
+    font-size: 14px;
+    padding: 2px 2px 2px 2px;
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+}
